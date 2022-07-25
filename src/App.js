@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-/* import About from './components/About'; */
 import Nav from './components/Nav';
 import MainPage from './components/MainPage';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -28,7 +28,7 @@ function App() {
         ></MainPage>
       </main>
       <footer>
-
+        <Footer></Footer>
       </footer>
     </div>
   );
