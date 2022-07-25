@@ -248,6 +248,20 @@ opacity: .9;
   text-align: center;
 }
 
+#resumeContainer > a {
+  color: var(--dark);
+}
+
+#resumeContainer > a:hover {
+  color: var(--primary);
+  background-color: #494850;
+}
+
+.resume > h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 footer {
   display: flex;
   flex-direction: row;

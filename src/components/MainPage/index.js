@@ -24,7 +24,7 @@ function MainPage(props) {
             return(
                 <Portfolio></Portfolio>
             );
-        } else if (name === 'resume') {
+        } else if (category.name === 'resume') {
             return(
                 <Resume/>
             );
