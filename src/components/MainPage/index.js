@@ -2,6 +2,7 @@ import React from 'react';
 import About from '../About';
 import Contact from '../Contact';
 import Portfolio from '../Portfolio';
+import Resume from '../Resume';
 
 
 
@@ -10,6 +11,7 @@ function MainPage(props) {
     const {...category}=currentCategory;
     
     function handleCategory(name) {
+        console.log(category.name);
         if (category.name === 'contact') { 
             return(
                 <Contact></Contact>
@@ -19,15 +21,14 @@ function MainPage(props) {
                 <About></About>
             );
         } else if (category.name === 'portfolio') {
-        return(
-            <Portfolio></Portfolio>
+            return(
+                <Portfolio></Portfolio>
+            );
+        } else if (name === 'resume') {
+            return(
+                <Resume/>
             );
         };
-/*         else if (name === 'resume') {
-            return(
-                <Resume></Resume>
-            );
-        }; */
     }
 
     return (

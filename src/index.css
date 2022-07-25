@@ -238,6 +238,16 @@ opacity: .9;
   text-align: center;
 }
 
+#resumeContainer {
+  background-color: var(--primary);
+  border: 3px solid var(--secondary);
+  color: var(--dark);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -280,7 +290,6 @@ nav li:hover {
   width: 150px;
   object-fit: cover;
   border: solid 3px var(--secondary);
-  margin: ;
 }
 
 textarea {
