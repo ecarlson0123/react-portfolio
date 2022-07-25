@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import About from './components/About';
+/* import About from './components/About'; */
+import Nav from './components/Nav';
+import MainPage from './components/MainPage';
 
 function App() {
   const [categories] = useState([
@@ -15,7 +17,19 @@ function App() {
 
   return (
     <div>
-      <About></About>
+      <Nav
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+      ></Nav>
+      <main>
+        <MainPage
+          currentCategory={currentCategory}
+        ></MainPage>
+      </main>
+      <footer>
+
+      </footer>
     </div>
   );
 }
