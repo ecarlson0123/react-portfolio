@@ -11,7 +11,7 @@ function Footer () {
             <a href='https://github.com/ecarlson0123' target='_blank' rel="noreferrer">
                 <img className='footerLogo' src={require('../../assets/personal/GitHub-Mark-Light-32px.png')} alt=''/>
             </a>
-            <a href='https://linkedin/in/erichcarlson' target='_blank' rel="noreferrer">
+            <a href='www.linkedin.com/in/erichcarlson' target='_blank' rel="noreferrer">
                 <img className='footerLogo' src={require('../../assets/personal/linkedin-white.png')} alt=''/>
             </a>
         </div>
