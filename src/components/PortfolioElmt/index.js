@@ -13,7 +13,7 @@ function Element () {
         {name: 'Budget Tracker', link: 'https://glacial-lake-04140.herokuapp.com/', repo: 'https://github.com/ecarlson0123/budget-tracker', img: budgetTracker },
         {name: 'Note Taker', link: 'https://shrouded-meadow-15877.herokuapp.com/', repo: 'https://github.com/ecarlson0123/note-taker', img: noteTaker },
         {name: 'Code Quiz', link: 'https://ecarlson0123.github.io/code-quiz/', repo: 'https://github.com/ecarlson0123/code-quiz', img: codeQuiz },
-        {name: 'The Bazaar', link: 'https://shielded-earth-23841.herokuapp.com/', repo: 'https://github.com/bagl0025/The-Bazaar', img: project3 }
+        {name: 'The Bazaar', link: 'https://shielded-earth-23841.herokuapp.com/', repo: 'https://github.com/bagl0025/The-Bazaar', img: project3 },
     ]
 
     
